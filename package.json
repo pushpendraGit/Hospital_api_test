@@ -1,0 +1,27 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "This app is a simulation of api's used in a hospital",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha"
+  },
+  "author": "Pushpendra Singh",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.0.1",
+    "mongoose": "^5.9.23",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
+}
