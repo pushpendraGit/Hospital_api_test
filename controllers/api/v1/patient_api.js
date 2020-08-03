@@ -51,7 +51,7 @@ module.exports.createReport = async function (req, res) {
   } catch (error) {
     if (error) {
       console.log(error);
-      return res.status(500).json({ Message: "Internal Server Error" });
+      return res.status(500).json({ Message: "There is an enternal server" });
     }
   }
 };
